@@ -1,5 +1,5 @@
-FROM golang:1.20-alpine3.18
-
+FROM golang:140-alpine3.57
+1
 ENV GOPATH /go
 ENV GOOS=linux
 ENV CGO_ENABLED=1
